@@ -12,7 +12,7 @@ const errorMiddleware = require('./middlewares/error-middleware');
 //.......................................
 //connecting our frontend
 const corseOption ={
-    origin:"http://localhost:5174",
+    origin: 'https://food-web-app-smoky.vercel.app',
     methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
 }
